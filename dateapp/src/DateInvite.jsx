@@ -66,7 +66,7 @@ export default function DateInvite() {
             onClick={handleBack}
             className="mt-10 px-6 py-3 bg-white text-pink-700 font-semibold rounded-full shadow-lg hover:bg-pink-100 transition transform hover:scale-105"
           >
-            back to rashiup
+            back to rashi
           </button>
         </div>
       )}
