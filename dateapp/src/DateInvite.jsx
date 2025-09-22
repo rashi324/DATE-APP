@@ -8,8 +8,8 @@ export default function DateInvite() {
     setCelebrate(true);
     setResponse(
       type === "yes"
-        ? "💖 Yay! YOU said YES! Get ready for a special outing together!"
-        : "💌 Oh! ayanarashi always be together ❤️"
+        ? "💖 Yay! YES YES! Get ready for a special outing together!"
+        : "💌 awww ! ayanarashi always be together ❤️"
     );
   };
 
@@ -66,7 +66,7 @@ export default function DateInvite() {
             onClick={handleBack}
             className="mt-10 px-6 py-3 bg-white text-pink-700 font-semibold rounded-full shadow-lg hover:bg-pink-100 transition transform hover:scale-105"
           >
-            Back to Home
+            Back to Rashii
           </button>
         </div>
       )}
