@@ -19,7 +19,7 @@ export default function DateInvite() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-pink-200 via-pink-300 to-pink-400 p-6 relative overflow-hidden transition-all duration-700">
+    <div className="h-screen w-full flex flex-col items-center justify-center bg-gradient-to-br from-pink-200 via-pink-300 to-pink-400 p-6 relative overflow-visible transition-all duration-700">
       <h1 className="text-5xl font-extrabold text-white mb-6 text-center drop-shadow-lg animate-pulse">
         Ayanuoo! ❤️
       </h1>
@@ -66,7 +66,7 @@ export default function DateInvite() {
             onClick={handleBack}
             className="mt-10 px-6 py-3 bg-white text-pink-700 font-semibold rounded-full shadow-lg hover:bg-pink-100 transition transform hover:scale-105"
           >
-            back to rashi
+            Back to Home
           </button>
         </div>
       )}
@@ -90,6 +90,7 @@ export default function DateInvite() {
         </div>
       )}
 
+      {/* Animations */}
       <style jsx>{`
         @keyframes float {
           0% {
