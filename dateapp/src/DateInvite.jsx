@@ -9,7 +9,7 @@ export default function DateInvite() {
     setResponse(
       type === "yes"
         ? "💖 Yay! YES YES! Get ready for a special outing together!"
-        : "💌 awww ! ayanarashi always be together ❤️"
+        : "💌 awww! ayanarashi always be together ❤️"
     );
   };
 
@@ -19,7 +19,7 @@ export default function DateInvite() {
   };
 
   return (
-    <div className="h-screen w-full flex flex-col items-center justify-center bg-gradient-to-br from-pink-200 via-pink-300 to-pink-400 p-6 relative overflow-visible transition-all duration-700">
+    <div className="min-h-[100vh] w-full flex flex-col items-center justify-center bg-gradient-to-br from-pink-200 via-pink-300 to-pink-400 p-6 relative overflow-visible transition-all duration-700">
       <h1 className="text-5xl font-extrabold text-white mb-6 text-center drop-shadow-lg animate-pulse">
         Ayanuoo! ❤️
       </h1>
@@ -47,7 +47,7 @@ export default function DateInvite() {
 
       {/* Celebration Popup */}
       {celebrate && (
-        <div className="absolute inset-0 flex flex-col items-center justify-center bg-gradient-to-tr from-pink-600 via-pink-700 to-pink-800 bg-opacity-90 backdrop-blur-sm animate-fadeIn">
+        <div className="absolute inset-0 flex flex-col items-center justify-center bg-gradient-to-tr from-pink-600 via-pink-700 to-pink-800 bg-opacity-95 backdrop-blur-sm animate-fadeIn z-10">
           <div className="flex gap-6">
             <div className="w-32 h-32 bg-red-500 rounded-full shadow-lg animate-bounce transform scale-125 flex items-center justify-center text-white text-4xl">
               ❤️
@@ -92,6 +92,10 @@ export default function DateInvite() {
 
       {/* Animations */}
       <style jsx>{`
+        html, body, #root {
+          height: 100%;
+          width: 100%;
+        }
         @keyframes float {
           0% {
             transform: translateY(0) scale(1);
