@@ -46,7 +46,7 @@ export default function DateInvite() {
             onClick={() => handleClick("yes")}
             className="px-8 py-4 w-1/2 bg-red-500 text-white rounded-full shadow-lg hover:bg-red-600 transform transition-all duration-500"
           >
-            Yes
+            Yes !
           </button>
           <button
             onClick={() => handleClick("no")}
